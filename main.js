@@ -22,12 +22,15 @@ let numero = 0;
 function dati() {
   
   for (let i = 0; i < 100; i++) {
-    let numeri = 1 + numero ;
+    numero = 1 + numero;
     let Quadrato = quadrato();
-    Quadrato.append(numeri)
+    numero = numero;
+    Quadrato.append(numero)
     griglia.append(Quadrato);
     
-    
+    Quadrato.addEventListener("click", function() {
+      this.classList.toggle("active")
+    })
   }
 
 
