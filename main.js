@@ -20,15 +20,15 @@ let numero = 0;
 
 // funzione recupero dati
 function dati() {
-  
+
   for (let i = 0; i < 100; i++) {
     numero = 1 + numero;
     let Quadrato = quadrato();
     numero = numero;
     Quadrato.append(numero)
     griglia.append(Quadrato);
-    
-    Quadrato.addEventListener("click", function() {
+
+    Quadrato.addEventListener("click", function () {
       this.classList.toggle("active")
     })
   }

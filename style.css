@@ -1,36 +1,35 @@
-
-#griglia{
+#griglia {
     display: flex;
     width: 50%;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin: auto;
-    
+
 
 }
 
-.conteiner{
+.conteiner {
     width: 100%;
-    background-color: rgba(127,255,212,255);
+    background-color: rgba(127, 255, 212, 255);
     padding: 40px 0;
 }
 
-.logo{
-   margin-right: auto;
+.logo {
+    margin-right: auto;
 }
 
-.nav{
+.nav {
     width: 100%;
     padding: 20px 10px;
 }
 
-div > img{
+div>img {
     width: 70%;
 }
 
-.play{
-    background-color: rgba(233,233,237,255);
+.play {
+    background-color: rgba(233, 233, 237, 255);
     border-color: gray;
     border-radius: 10px;
     padding: 0 20px;
@@ -39,7 +38,7 @@ div > img{
 
 
 
-.box{
+.box {
 
     border: 1px solid black;
     width: calc(100% / 10);
@@ -51,11 +50,11 @@ div > img{
 
 }
 
-.active{
+.active {
     background-color: aqua;
 }
 
-.fa-heart{
+.fa-heart {
     width: 18px;
     margin: 30px 3px;
 }
