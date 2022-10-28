@@ -5,15 +5,24 @@
     justify-content: center;
     align-items: center;
     margin: auto;
-
-
 }
+
+body{
+    height: 100vh;
+}
+
+/* conteiner griglia */
 
 .conteiner {
     width: 100%;
     background-color: rgba(127, 255, 212, 255);
-    padding: 40px 0;
+    
+    height: 86vh;
+    align-items: center;
+    display: flex;
 }
+
+/* nav */
 
 .logo {
     margin-right: auto;
@@ -21,7 +30,10 @@
 
 .nav {
     width: 100%;
-    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+    height: 7vh;
 }
 
 div>img {
@@ -32,12 +44,12 @@ div>img {
     background-color: rgba(233, 233, 237, 255);
     border-color: gray;
     border-radius: 10px;
-    padding: 0 20px;
-    margin-left: auto;
+    margin:  10px;
+    padding: 0 25px ;
+    font-size: 16px;
 }
 
-
-
+/* griglia */
 .box {
 
     border: 1px solid black;
@@ -46,8 +58,6 @@ div>img {
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .active {
@@ -57,4 +67,13 @@ div>img {
 .fa-heart {
     width: 18px;
     margin: 30px 3px;
+}
+
+/* footer */
+
+footer{
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
 }
