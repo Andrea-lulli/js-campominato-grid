@@ -1,6 +1,6 @@
 #griglia {
     display: flex;
-    width: 50%;
+    width: 40%;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;

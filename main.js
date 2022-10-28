@@ -26,13 +26,14 @@ function dati() {
     let Quadrato = quadrato();
     numero = numero;
     Quadrato.append(numero)
+
     griglia.append(Quadrato);
 
     Quadrato.addEventListener("click", function () {
       this.classList.toggle("active")
+      console.log(this.innerHTML);
     })
   }
-
 
 }
 
