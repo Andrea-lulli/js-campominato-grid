@@ -1,12 +1,39 @@
 
 #griglia{
     display: flex;
-    width: 80%;
+    width: 70%;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin: auto;
+    
 
+}
+
+.conteiner{
+    width: 100%;
+    background-color: aquamarine;
+    padding: 40px 0;
+}
+
+.logo{
+   margin-right: auto;
+}
+
+.nav{
+    width: 100%;
+    padding: 10px 10px;
+}
+
+div > img{
+    width: 70%;
+}
+
+.play{
+    background-color: lightgray;
+    border-color: gray;
+    border-radius: 10px;
+    padding: 0 20px;
 }
 
 
