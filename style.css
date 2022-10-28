@@ -1,7 +1,7 @@
 
 #griglia{
     display: flex;
-    width: 70%;
+    width: 50%;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -12,7 +12,7 @@
 
 .conteiner{
     width: 100%;
-    background-color: aquamarine;
+    background-color: rgba(127,255,212,255);
     padding: 40px 0;
 }
 
@@ -22,7 +22,7 @@
 
 .nav{
     width: 100%;
-    padding: 10px 10px;
+    padding: 20px 10px;
 }
 
 div > img{
@@ -30,22 +30,32 @@ div > img{
 }
 
 .play{
-    background-color: lightgray;
+    background-color: rgba(233,233,237,255);
     border-color: gray;
     border-radius: 10px;
     padding: 0 20px;
+    margin-left: auto;
 }
 
 
 
 .box{
+
     border: 1px solid black;
     width: calc(100% / 10);
     aspect-ratio: 1 / 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 
 }
 
 .active{
     background-color: aqua;
+}
+
+.fa-heart{
+    width: 18px;
+    margin: 30px 3px;
 }
